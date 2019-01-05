@@ -8,9 +8,12 @@
     var TIMEOUT = 600;
     var timeout = null;
 
-    var PUBLIC_KEY_VERSION = 0;
-    var PRIVATE_KEY_VERSION = 0x80;
-    var ADDRESS_URL_PREFIX = 'http://blockchain.info'
+    //var PUBLIC_KEY_VERSION = 0;
+    //var PRIVATE_KEY_VERSION = 0x80;
+    //var ADDRESS_URL_PREFIX = 'http://blockchain.info'
+    var PUBLIC_KEY_VERSION = 85;
+    var PRIVATE_KEY_VERSION = 213;    
+    var ADDRESS_URL_PREFIX = 'https://chainz.cryptoid.info/btm/'
 
     function parseBase58Check(address) {
         var bytes = Bitcoin.Base58.decode(address);
